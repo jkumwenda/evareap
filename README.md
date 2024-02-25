@@ -1,4 +1,4 @@
-# Maladis
+# EVAREAP
 ================
 ### Instructions
 1. Clone the repository

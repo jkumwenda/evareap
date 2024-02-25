@@ -1,0 +1,203 @@
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Dashboard', 'VIEW_DASHBOARD', 'EVAREAP');
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('Add User', 'ADD_USER', 'EVAREAP'),
+       ('View User', 'VIEW_USER', 'EVAREAP'),
+       ('Update User', 'UPDATE_USER', 'EVAREAP'),
+       ('Delete User', 'DELETE_USER', 'EVAREAP');
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Roles', 'VIEW_ROLE', 'EVAREAP'),
+       ('Add Role', 'ADD_ROLE', 'EVAREAP'),
+       ('Update Role', 'UPDATE_ROLE', 'EVAREAP'),
+       ('Delete Role', 'DELETE_ROLE', 'EVAREAP');
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Manufacturer', 'VIEW_MANUFACTURER', 'EVAREAP'),
+       ('Add Manufacturer', 'ADD_MANUFACTURER', 'EVAREAP'),
+       ('Update Manufacturer', 'UPDATE_MANUFACTURER', 'EVAREAP'),
+       ('Delete Manufacturer', 'DELETE_MANUFACTURER', 'EVAREAP'); 
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Applicant', 'VIEW_APPLICANT', 'EVAREAP'),
+       ('Add Applicant', 'ADD_APPLICANT', 'EVAREAP'),
+       ('Update Applicant', 'UPDATE_APPLICANT', 'EVAREAP'),
+       ('Delete Applicant', 'DELETE_APPLICANT', 'EVAREAP'); 
+       
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Product Category', 'VIEW_PRODUCT_CATEGORY', 'EVAREAP'),
+       ('Add Product Category', 'ADD_PRODUCT_CATEGORY', 'EVAREAP'),
+       ('Update Product Category', 'UPDATE_PRODUCT_CATEGORY', 'EVAREAP'),
+       ('Delete Product Category', 'DELETE_PRODUCT_CATEGORY', 'EVAREAP');  
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Product', 'VIEW_PRODUCT', 'EVAREAP'),
+       ('Add Product', 'ADD_PRODUCT', 'EVAREAP'),
+       ('Update Product', 'UPDATE_PRODUCT', 'EVAREAP'),
+       ('Delete Product', 'DELETE_PRODUCT', 'EVAREAP'); 
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Workflow', 'VIEW_WORKFLOW', 'EVAREAP'),
+       ('Add Workflow', 'ADD_WORKFLOW', 'EVAREAP'),
+       ('Update Workflow', 'UPDATE_WORKFLOW', 'EVAREAP'),
+       ('Delete Workflow', 'DELETE_WORKFLOW', 'EVAREAP'); 
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Licence Fee', 'VIEW_PRODUCT_LICENCE_FEE', 'EVAREAP'),
+       ('Add Licence Fee', 'ADD_PRODUCT_LICENCE_FEE', 'EVAREAP'),
+       ('Update Licence Fee', 'UPDATE_PRODUCT_LICENCE_FEE', 'EVAREAP'),
+       ('Delete Licence Fee', 'DELETE_PRODUCT_LICENCE_FEE', 'EVAREAP'); 
+
+
+
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Administration Route', 'VIEW_ADMINISTRATION_ROUTE', 'EVAREAP'),
+       ('Add Administration Route', 'ADD_ADMINISTRATION_ROUTE', 'EVAREAP'),
+       ('Update Administration Route', 'UPDATE_ADMINISTRATION_ROUTE', 'EVAREAP'),
+       ('Delete Administration Route', 'DELETE_ADMINISTRATION_ROUTE', 'EVAREAP'); 
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Generic Name', 'VIEW_GENERIC_NAME', 'EVAREAP'),
+       ('Add Generic Name', 'ADD_GENERIC_NAME', 'EVAREAP'),
+       ('Update Generic Name', 'UPDATE_GENERIC_NAME', 'EVAREAP'),
+       ('Delete Generic Name', 'DELETE_GENERIC_NAME', 'EVAREAP');        
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Dosage Form', 'VIEW_DOSAGE_FORM', 'EVAREAP'),
+       ('Add Dosage Form', 'ADD_DOSAGE_FORM', 'EVAREAP'),
+       ('Update Dosage Form', 'UPDATE_DOSAGE_FORM', 'EVAREAP'),
+       ('Delete Dosage Form', 'DELETE_DOSAGE_FORM', 'EVAREAP');   
+
+
+
+   
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Permission', 'VIEW_PERMISSION', 'EVAREAP'),
+       ('Add Permission', 'ADD_PERMISSION', 'EVAREAP'),
+       ('Update Permission', 'UPDATE_PERMISSION', 'EVAREAP'),
+       ('Delete Permission', 'DELETE_PERMISSION', 'EVAREAP');
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View File Category', 'VIEW_FILE_CATEGORY', 'EVAREAP'),
+       ('Add File Category', 'ADD_FILE_CATEGORY', 'EVAREAP'),
+       ('Update File Category', 'UPDATE_FILE_CATEGORY', 'EVAREAP'),
+       ('Delete File Category', 'DELETE_FILE_CATEGORY', 'EVAREAP');   
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Business Category', 'VIEW_BUSINESS_CATEGORY', 'EVAREAP'),
+       ('Add Business Category', 'ADD_BUSINESS_CATEGORY', 'EVAREAP'),
+       ('Update Business Category', 'UPDATE_BUSINESS_CATEGORY', 'EVAREAP'),
+       ('Delete Business Category', 'DELETE_BUSINESS_CATEGORY', 'EVAREAP');     
+
+  
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Position', 'VIEW_POSITION', 'EVAREAP'),
+       ('Add Position', 'ADD_POSITION', 'EVAREAP'),
+       ('Update Position', 'UPDATE_POSITION', 'EVAREAP'),
+       ('Delete Position', 'DELETE_POSITION', 'EVAREAP');                
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Branch', 'VIEW_BRANCH', 'EVAREAP'),
+       ('Add Branch', 'ADD_BRANCH', 'EVAREAP'),
+       ('Update Branch', 'UPDATE_BRANCH', 'EVAREAP'),
+       ('Delete Branch', 'DELETE_BRANCH', 'EVAREAP');  
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Department', 'VIEW_DEPARTMENT', 'EVAREAP'),
+       ('Add Department', 'ADD_DEPARTMENT', 'EVAREAP'),
+       ('Update Department', 'UPDATE_DEPARTMENT', 'EVAREAP'),
+       ('Delete Department', 'DELETE_DEPARTMENT', 'EVAREAP');   
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Employee', 'VIEW_EMPLOYEE', 'EVAREAP'),
+       ('Add Employee', 'ADD_EMPLOYEE', 'EVAREAP'),
+       ('Update Employee', 'UPDATE_EMPLOYEE', 'EVAREAP'),
+       ('Delete Employee', 'DELETE_EMPLOYEE', 'EVAREAP');     
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Approval Action', 'VIEW_APPROVAL_ACTION', 'EVAREAP'),
+       ('Add Approval Action', 'ADD_APPROVAL_ACTION', 'EVAREAP'),
+       ('Update Approval Action', 'UPDATE_APPROVAL_ACTION', 'EVAREAP'),
+       ('Delete Approval Action', 'DELETE_APPROVAL_ACTION', 'EVAREAP');  
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Supplier Category', 'VIEW_SUPPLIER_CATEGORY', 'EVAREAP'),
+       ('Add Supplier Category', 'ADD_SUPPLIER_CATEGORY', 'EVAREAP'),
+       ('Update Supplier Category', 'UPDATE_SUPPLIER_CATEGORY', 'EVAREAP'),
+       ('Delete Supplier Category', 'DELETE_SUPPLIER_CATEGORY', 'EVAREAP');   
+
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Suppliers', 'VIEW_SUPPLIER', 'EVAREAP'),
+       ('Add Supplier', 'ADD_SUPPLIER', 'EVAREAP'),
+       ('Update Supplier', 'UPDATE_SUPPLIER', 'EVAREAP'),
+       ('Delete Supplier', 'DELETE_SUPPLIER', 'EVAREAP');      
+
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Workflow', 'VIEW_WORKFLOW', 'EVAREAP'),
+       ('Add Workflow', 'ADD_WORKFLOW', 'EVAREAP'),
+       ('Update Workflow', 'UPDATE_WORKFLOW', 'EVAREAP'),
+       ('Delete Workflow', 'DELETE_WORKFLOW', 'EVAREAP');    
+
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Unit of Measure', 'VIEW_UNIT_OF_MEASURE', 'EVAREAP'),
+       ('Add Unit of Measure', 'ADD_UNIT_OF_MEASURE', 'EVAREAP'),
+       ('Update Unit of Measure', 'UPDATE_UNIT_OF_MEASURE', 'EVAREAP'),
+       ('Delete Unit of Measure', 'DELETE_UNIT_OF_MEASURE', 'EVAREAP'); 
+
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Item', 'VIEW_ITEM', 'EVAREAP'),
+       ('Add Item', 'ADD_ITEM', 'EVAREAP'),
+       ('Update Item', 'UPDATE_ITEM', 'EVAREAP'),
+       ('Delete Item', 'DELETE_ITEM', 'EVAREAP');   
+
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Finacial Year', 'VIEW_FINANCIAL_YEAR', 'EVAREAP'),
+       ('Add Finacial Year', 'ADD_FINANCIAL_YEAR', 'EVAREAP'),
+       ('Update Finacial Year', 'UPDATE_FINANCIAL_YEAR', 'EVAREAP'),
+       ('Delete Finacial Year', 'DELETE_FINANCIAL_YEAR', 'EVAREAP');                                          
+                                                            
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Budget', 'VIEW_BUDGET', 'EVAREAP'),
+       ('Add Budget', 'ADD_BUDGET', 'EVAREAP'),
+       ('Update Budget', 'UPDATE_BUDGET', 'EVAREAP'),
+       ('Delete Budget', 'DELETE_BUDGET', 'EVAREAP'); 
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Request', 'VIEW_REQUEST', 'EVAREAP'),
+       ('Add Request', 'ADD_REQUEST', 'EVAREAP'),
+       ('Update Request', 'UPDATE_REQUEST', 'EVAREAP'),
+       ('Delete Request', 'DELETE_REQUEST', 'EVAREAP'); 
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Purchase Order', 'VIEW_PURCHASE_ORDER', 'EVAREAP'),
+       ('Add Purchase Order', 'ADD_PURCHASE_ORDER', 'EVAREAP'),
+       ('Update Purchase Order', 'UPDATE_PURCHASE_ORDER', 'EVAREAP'),
+       ('Delete Purchase Order', 'DELETE_PURCHASE_ORDER', 'EVAREAP');  
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('Admin Settings', 'ADMIN_SETTINGS', 'EVAREAP');  
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('System Configurations', 'SYSTEM_CONFIGURATIONS', 'EVAREAP');   
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View District', 'VIEW_DISTRICT', 'EVAREAP'),
+       ('Add District', 'ADD_DISTRICT', 'EVAREAP'),
+       ('Update District', 'UPDATE_DISTRICT', 'EVAREAP'),
+       ('Delete District', 'DELETE_DISTRICT', 'EVAREAP');    
+
+INSERT INTO permission (permission, permission_code, system_code)
+VALUES ('View Business Entity', 'VIEW_BUSINESS_ENTITY', 'EVAREAP'),
+       ('Add Business Entity', 'ADD_BUSINESS_ENTITY', 'EVAREAP'),
+       ('Update Business Entity', 'UPDATE_BUSINESS_ENTITY', 'EVAREAP'),
+       ('Delete Business Entity', 'DELETE_BUSINESS_ENTITY', 'EVAREAP');         
+                            

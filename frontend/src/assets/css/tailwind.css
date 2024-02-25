@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css?family=Niramit&display=swap");
+
+@font-face {
+  font-family: "Roboto";
+  src: url("@/assets/fonts/Roboto/Roboto-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ThinRoboto";
+  src: url("@/assets/fonts/Roboto/Roboto-Thin.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LightRoboto";
+  src: url("@/assets/fonts/Roboto/Roboto-Light.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Archivo";
+  src: url("@/assets/fonts/Archivo/ArchivoBlack-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Paytone";
+  src: url("@/assets/fonts/Paytone/PaytoneOne-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}

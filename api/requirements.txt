@@ -1,0 +1,13 @@
+fastapi[all]
+uvicorn
+alembic
+bcrypt
+python-multipart
+python-jose[cryptography]
+passlib[bcrypt]
+pydantic
+reportlab
+sqlalchemy
+mysql-connector-python
+barcode
+setuptools
